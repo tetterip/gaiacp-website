@@ -55,7 +55,7 @@
 
 <section class="hero">
     <div class="wrap">
-        <p class="pill"><b>Free and open source</b> · GPL-3.0 · <span data-version>Latest release</span></p>
+        <p class="pill"><b>Free and open source</b> · GPL-3.0 · <a href="https://github.com/tetterip/GaiaCP/releases/latest" title="What's new in this release"><span data-version>Latest release</span></a></p>
         <h1>Billing and provisioning for <em>small hosting businesses</em></h1>
         <p class="lead">GaiaCP keeps track of your clients and what they pay you, and does the repetitive work around it: payment notices and reminders, hosting accounts, domains, SSL, and a client area your customers can use on their own.</p>
         <div class="actions">
@@ -131,7 +131,7 @@
             <article class="card">
                 <h3><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></span>A client area clients like</h3>
                 <ul>
-                    <li>Order with a cart, pay, see services and usage</li>
+                    <li>Order with a cart, pay, see services, usage and their VPS</li>
                     <li>Change hosting passwords, open cPanel or Plesk in one click</li>
                     <li>Public order pages, compare tables and a home page with your logo</li>
                     <li>Ten languages, two-factor sign-in, Google sign-in</li>
@@ -247,7 +247,7 @@
             <div class="card"><b>No licence fee</b><p>Free and GPL-3.0. No price per client or per service, now or when you grow.</p></div>
             <div class="card"><b>Runs on your hosting</b><p>PHP and MySQL with a cron job. No SSH, Composer or Node needed, and it works in a subfolder.</p></div>
             <div class="card"><b>Safe to re-run</b><p>Every automatic step checks before it acts and is logged, so nothing is charged, suspended or emailed twice.</p></div>
-            <div class="card"><b>Signed updates</b><p>One button updates GaiaCP after a backup, and only releases signed with the project's key are accepted.</p></div>
+            <div class="card"><b>Signed updates</b><p>One button updates GaiaCP after a backup and puts everything back if it fails. Only releases signed with the project's key are accepted.</p></div>
         </div>
     </div>
 </section>
@@ -265,6 +265,7 @@
             <li class="card"><h3>Add the cron line</h3><p>Add the line it shows you, log in at <code>/admin</code> and follow the setup guide on the dashboard.</p></li>
         </ol>
         <p class="note">Coming from WHMCS? The import brings over your servers, products, clients, hosting accounts with their passwords, domains and unpaid invoices, with a dry run first. More in the <a href="https://github.com/tetterip/GaiaCP/blob/main/docs/installation.md">installation guide</a>.</p>
+        <p class="note">Want to try it on your own computer first? <code>docker compose up</code> runs it with its database and cron, ready to log in to (<a href="https://github.com/tetterip/GaiaCP/blob/main/docs/docker.md">Docker guide</a>).</p>
 
         <div class="alpha">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9L1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
@@ -314,6 +315,7 @@
             <ul>
                 <li><a href="https://demo.gaiacp.digital/admin">Live demo</a></li>
                 <li><a href="https://github.com/tetterip/GaiaCP/releases">Releases</a></li>
+                <li><a href="https://github.com/tetterip/GaiaCP/blob/main/CHANGELOG.md">Changelog</a></li>
                 <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/features.md">All features</a></li>
                 <li><a href="https://plugins.gaiacp.digital">Plugins</a></li>
             </ul>
@@ -322,6 +324,7 @@
             <h4>Docs</h4>
             <ul>
                 <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/installation.md">Installation</a></li>
+                <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/docker.md">Docker</a></li>
                 <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/admin-guide/README.md">Admin guide</a></li>
                 <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/using-the-api.md">REST API</a></li>
                 <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/writing-plugins.md">Writing plugins</a></li>

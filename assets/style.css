@@ -119,6 +119,7 @@ code { font-family: var(--mono); font-size: .88em; background: var(--soft); padd
     margin-bottom: 24px; letter-spacing: .01em;
 }
 .pill b { color: var(--accent); font-weight: 600; }
+.pill a { color: inherit; text-decoration: underline; text-decoration-color: var(--line, currentColor); text-underline-offset: 3px; }
 .hero h1 { max-width: 13em; }
 .lead { font-size: clamp(1.05rem, 2vw, 1.25rem); color: var(--ink-soft); max-width: 36em; margin: 0 0 30px; }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; }
