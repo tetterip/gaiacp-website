@@ -56,7 +56,7 @@
 
 <section class="hero">
     <div class="wrap">
-        <p class="pill"><b>Δωρεάν και ανοιχτού κώδικα</b> · GPL-3.0 · <span data-version>Τελευταία έκδοση</span></p>
+        <p class="pill"><b>Δωρεάν και ανοιχτού κώδικα</b> · GPL-3.0 · <a href="https://github.com/tetterip/GaiaCP/releases/latest" title="Τι νέο έχει αυτή η έκδοση"><span data-version>Τελευταία έκδοση</span></a></p>
         <h1>Χρεώσεις και αυτόματη ενεργοποίηση για <em>μικρές εταιρείες hosting</em></h1>
         <p class="lead">Το GaiaCP κρατάει τους πελάτες σας και τι σας πληρώνουν, και κάνει τη δουλειά ρουτίνας γύρω από αυτό: ειδοποιήσεις πληρωμής και υπενθυμίσεις, λογαριασμούς hosting, domains, SSL και μια περιοχή πελατών που οι πελάτες σας χρησιμοποιούν μόνοι τους.</p>
         <div class="actions">
@@ -132,7 +132,7 @@
             <article class="card">
                 <h3><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></span>Περιοχή πελατών που αρέσει</h3>
                 <ul>
-                    <li>Παραγγελία με καλάθι, πληρωμή, υπηρεσίες και χρήση πόρων</li>
+                    <li>Παραγγελία με καλάθι, πληρωμή, υπηρεσίες, χρήση πόρων και το VPS τους</li>
                     <li>Αλλαγή κωδικών hosting, είσοδος σε cPanel ή Plesk με ένα κλικ</li>
                     <li>Δημόσιες σελίδες παραγγελίας, πίνακες σύγκρισης και αρχική με το λογότυπό σας</li>
                     <li>Δέκα γλώσσες, σύνδεση δύο βημάτων, σύνδεση με Google</li>
@@ -248,7 +248,7 @@
             <div class="card"><b>Χωρίς άδεια χρήσης</b><p>Δωρεάν και GPL-3.0. Καμία χρέωση ανά πελάτη ή υπηρεσία, ούτε τώρα ούτε όταν μεγαλώσετε.</p></div>
             <div class="card"><b>Τρέχει στο hosting σας</b><p>PHP και MySQL με ένα cron job. Χωρίς SSH, Composer ή Node, και δουλεύει και σε υποφάκελο.</p></div>
             <div class="card"><b>Ασφαλές να ξανατρέξει</b><p>Κάθε αυτόματο βήμα ελέγχει πριν ενεργήσει και καταγράφεται, ώστε τίποτα να μη χρεωθεί, ανασταλεί ή σταλεί δύο φορές.</p></div>
-            <div class="card"><b>Υπογεγραμμένες ενημερώσεις</b><p>Ένα κουμπί ενημερώνει το GaiaCP μετά από backup, και γίνονται δεκτές μόνο εκδόσεις υπογεγραμμένες με το κλειδί του έργου.</p></div>
+            <div class="card"><b>Υπογεγραμμένες ενημερώσεις</b><p>Ένα κουμπί ενημερώνει το GaiaCP μετά από backup και τα επαναφέρει όλα αν κάτι αποτύχει. Γίνονται δεκτές μόνο εκδόσεις υπογεγραμμένες με το κλειδί του έργου.</p></div>
         </div>
     </div>
 </section>
@@ -266,6 +266,7 @@
             <li class="card"><h3>Προσθέστε το cron</h3><p>Βάλτε τη γραμμή που σας δείχνει, συνδεθείτε στο <code>/admin</code> και ακολουθήστε τα βήματα ρύθμισης στον πίνακα ελέγχου.</p></li>
         </ol>
         <p class="note">Έρχεστε από WHMCS; Η εισαγωγή φέρνει servers, προϊόντα, πελάτες, λογαριασμούς hosting με τους κωδικούς τους, domains και απλήρωτα τιμολόγια, με δοκιμαστική εκτέλεση πρώτα. Περισσότερα στον <a href="https://github.com/tetterip/GaiaCP/blob/main/docs/installation.md">οδηγό εγκατάστασης</a>.</p>
+        <p class="note">Θέλετε πρώτα να το δοκιμάσετε στον υπολογιστή σας; Το <code>docker compose up</code> το σηκώνει με τη βάση και το cron του, έτοιμο για σύνδεση (<a href="https://github.com/tetterip/GaiaCP/blob/main/docs/docker.md">οδηγός Docker</a>).</p>
 
         <div class="alpha">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9L1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
@@ -315,6 +316,7 @@
             <ul>
                 <li><a href="https://demo.gaiacp.digital/admin">Demo</a></li>
                 <li><a href="https://github.com/tetterip/GaiaCP/releases">Εκδόσεις</a></li>
+                <li><a href="https://github.com/tetterip/GaiaCP/blob/main/CHANGELOG.md">Αλλαγές ανά έκδοση</a></li>
                 <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/features.md">Όλες οι λειτουργίες</a></li>
                 <li><a href="https://plugins.gaiacp.digital">Πρόσθετα</a></li>
             </ul>
@@ -323,6 +325,7 @@
             <h4>Τεκμηρίωση</h4>
             <ul>
                 <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/installation.md">Εγκατάσταση</a></li>
+                <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/docker.md">Docker</a></li>
                 <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/admin-guide/README.md">Οδηγός διαχειριστή</a></li>
                 <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/using-the-api.md">REST API</a></li>
                 <li><a href="https://github.com/tetterip/GaiaCP/blob/main/docs/writing-plugins.md">Γράψιμο πρόσθετων</a></li>
